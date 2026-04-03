@@ -50,6 +50,7 @@
 - Multi-step DB operations wrapped in **transactions**
 - **Failures rollback** automatically - no partial data left behind
 - PostgreSQL **constraints** (foreign keys, not-null) enforced at DB level
+- **DB fetches** are faster than 1s
 
 ### NFR3 - Code Quality
 - Clear **separation of concerns** (Controller / Service / Repository on backend, components / services on frontend)
