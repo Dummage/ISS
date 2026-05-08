@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: theme('fontFamily.body');
+  background-color: #00010d;
+  color: theme('colors.on-surface');
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.ambient-glow {
+  box-shadow: 0 0 24px rgba(192, 193, 255, 0.1);
+}
+
+.focused-input:focus {
+  outline: none;
+  border-bottom: 1px solid #c0c1ff;
+}
