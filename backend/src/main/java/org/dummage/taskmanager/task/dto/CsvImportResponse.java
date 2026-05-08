@@ -1,0 +1,14 @@
+package org.dummage.taskmanager.task.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CsvImportResponse {
+
+	private int imported;
+	private int skipped;
+}
